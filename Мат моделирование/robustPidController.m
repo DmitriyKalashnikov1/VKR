@@ -1,6 +1,6 @@
 Ce = 0.153;
 Cm = 0.156;
-J = ureal('J', 1.22e-4, 'Percentage', 20);
+J =  ureal('J', 1.22e-4, 'Percentage', 20);
 Ry = ureal('Ry', 0.34, 'Percentage', 20);
 Ly = ureal('Ly', 1e-4, 'Percentage', 20);
 Mc = 0.1;
