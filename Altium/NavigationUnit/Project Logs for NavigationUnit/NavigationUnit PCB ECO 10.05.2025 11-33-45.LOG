@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=P1 Old Footprint=691321100002 New Footprint=691321100002
+Change Component Footprint: Designator=X1 Old Footprint=FP-39-30-1061-MFG New Footprint=FP-39-30-1061-MFG
+Change Component Footprint: Designator=D3 Old Footprint=FP-419C-02-MFG New Footprint=FP-419C-02-MFG
+Added Pin To Net: NetName=GND Pin=X2-4

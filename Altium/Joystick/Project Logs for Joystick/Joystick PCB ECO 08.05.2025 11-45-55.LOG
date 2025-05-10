@@ -1,0 +1,17 @@
+Change Component Footprint: Designator=X1 Old Footprint=620104131822 New Footprint=620104131822
+Change Component Footprint: Designator=X4 Old Footprint=FP-39-30-1061-MFG New Footprint=FP-39-30-1061-MFG
+Change Component Footprint: Designator=Q1 Old Footprint=WS-TASV_L6W6H4.3_4301x20438x6 New Footprint=WS-TASV_L6W6H4.3_4301x20438x6
+Change Component Footprint: Designator=Q2 Old Footprint=WS-TASV_L6W6H4.3_4301x20438x6 New Footprint=WS-TASV_L6W6H4.3_4301x20438x6
+Change Component Footprint: Designator=Q3 Old Footprint=WS-TASV_L6W6H4.3_4301x20438x6 New Footprint=WS-TASV_L6W6H4.3_4301x20438x6
+Change Component Footprint: Designator=Q4 Old Footprint=WS-TASV_L6W6H4.3_4301x20438x6 New Footprint=WS-TASV_L6W6H4.3_4301x20438x6
+Change Component Footprint: Designator=Q5 Old Footprint=WS-TASV_L6W6H4.3_4301x20438x6 New Footprint=WS-TASV_L6W6H4.3_4301x20438x6
+Change Component Footprint: Designator=Q6 Old Footprint=WS-TASV_L6W6H4.3_4301x20438x6 New Footprint=WS-TASV_L6W6H4.3_4301x20438x6
+Change Component Footprint: Designator=Q7 Old Footprint=WS-TASV_L6W6H4.3_4301x20438x6 New Footprint=WS-TASV_L6W6H4.3_4301x20438x6
+Change Component Footprint: Designator=Q8 Old Footprint=WS-TASV_L6W6H4.3_4301x20438x6 New Footprint=WS-TASV_L6W6H4.3_4301x20438x6
+Change Component Footprint: Designator=Q10 Old Footprint=WS-TASV_L6W6H4.3_4301x20438x6 New Footprint=WS-TASV_L6W6H4.3_4301x20438x6
+Change Component Footprint: Designator=Q11 Old Footprint=WS-TASV_L6W6H4.3_4301x20438x6 New Footprint=WS-TASV_L6W6H4.3_4301x20438x6
+Change Component Footprint: Designator=Q12 Old Footprint=WS-TASV_L6W6H4.3_4301x20438x6 New Footprint=WS-TASV_L6W6H4.3_4301x20438x6
+Change Component Footprint: Designator=Q13 Old Footprint=WS-TASV_L6W6H4.3_4301x20438x6 New Footprint=WS-TASV_L6W6H4.3_4301x20438x6
+Change Component Footprint: Designator=Q14 Old Footprint=WS-TASV_L6W6H4.3_4301x20438x6 New Footprint=WS-TASV_L6W6H4.3_4301x20438x6
+Change Component Footprint: Designator=Q15 Old Footprint=WS-TASV_L6W6H4.3_4301x20438x6 New Footprint=WS-TASV_L6W6H4.3_4301x20438x6
+Added Pin To Net: NetName=GND Pin=R8-2

@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=NetC1_2 Pin=C7-2
+Removed Pin From Net: NetName=NetC1_2 Pin=D2-88
+Removed Pin From Net: NetName=NetC1_2 Pin=R7-2
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Pin To Net: NetName=NetC7_2 Pin=D2-88
+Added Pin To Net: NetName=NetC7_2 Pin=R7-2
+Added Net: Name=NetC7_2
+Added Member To Class: ClassName=Joystick Member=Component C1 Cap
+Added Member To Class: ClassName=Joystick Member=Component C2 Cap
+Added Member To Class: ClassName=Joystick Member=Component C8 Cap
+Added Member To Class: ClassName=Joystick Member=Component C10 Cap
+Added Member To Class: ClassName=Joystick Member=Component C12 Cap
+Added Member To Class: ClassName=Joystick Member=Component C14 Cap
+Added Member To Class: ClassName=Joystick Member=Component C15 Cap
+Added Member To Class: ClassName=Joystick Member=Component C16 Cap2
+Added Member To Class: ClassName=Joystick Member=Component C18 Cap
+Added Member To Class: ClassName=Joystick Member=Component C20 Cap
+Added Member To Class: ClassName=Joystick Member=Component Q1 430152043836
+Added Member To Class: ClassName=Joystick Member=Component Q2 430152043836
+Added Member To Class: ClassName=Joystick Member=Component Q4 430152043836
+Added Member To Class: ClassName=Joystick Member=Component Q6 430152043836
+Added Member To Class: ClassName=Joystick Member=Component Q7 430152043836
+Added Member To Class: ClassName=Joystick Member=Component Q9 430152043836
+Added Member To Class: ClassName=Joystick Member=Component Q10 NPN
+Added Member To Class: ClassName=Joystick Member=Component Q12 430152043836
+Added Member To Class: ClassName=Joystick Member=Component Q13 430152043836
+Added Member To Class: ClassName=Joystick Member=Component Q14 430152043836
+Added Member To Class: ClassName=Joystick Member=Component R1 Res2
+Added Member To Class: ClassName=Joystick Member=Component R2 Res2
+Added Member To Class: ClassName=Joystick Member=Component R3 Res2
+Added Member To Class: ClassName=Joystick Member=Component R8 Res2
+Added Member To Class: ClassName=Joystick Member=Component R9 Res2
+Added Member To Class: ClassName=Joystick Member=Component R11 Res2
+Added Member To Class: ClassName=Joystick Member=Component R12 Res2
+Added Member To Class: ClassName=Joystick Member=Component R14 Res2
+Added Member To Class: ClassName=Joystick Member=Component R15 Res2
+Added Member To Class: ClassName=Joystick Member=Component R17 Res2
+Added Member To Class: ClassName=Joystick Member=Component R19 Res2
+Added Member To Class: ClassName=Joystick Member=Component R20 Res2
