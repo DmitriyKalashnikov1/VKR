@@ -182,8 +182,10 @@ J = (1/4) * [1, 1, 1, 1;
          wr_history(tf, 1) = wr_k;
      end
      
-     vr_history(tf, 1) = r*wr_k*slip_r;
-     vl_history(tf, 1) = r*wl_k*slip_l;
+     
+     
+     vr_history(tf, 1) = r*wr_k;
+     vl_history(tf, 1) = r*wl_k;
      
      Mr_history(tf, 1) = 0.5*m*g*cos(alphaGround)*deltaTr + 0.5*m*((vr_history(tf,1) - vr_history(tf -1,1))/dt + g*sin(alphaGround))*r - (J0/dt) - ((vr_history(tf,1)/r) - (vr_history(tf - 1,1)/r));
       
