@@ -57,7 +57,7 @@
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-333,-137)" stroke-linecap="butt">
       <path fill="none" d="M1155.032 1032.4117 L1278.024 1075.9117 L1155.032 1119.4117 L1032.04 1075.9117 Z" clip-path="url(#clipPath2)"/>
-      <text x="1057.8396" font-size="20px" y="1083.7682" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">Расстояние &lt; 20 cм?</text>
+      <text x="1057.8396" font-size="20px" y="1083.7682" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">Расстояние &gt; 20 cм?</text>
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-333,-137)" stroke-linecap="butt">
       <rect fill="none" x="1776.2032" width="229.618" height="87" y="1223.7617" clip-path="url(#clipPath2)"/>
@@ -124,6 +124,10 @@
       <text x="1530.532" font-size="24px" y="1565.4967" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">x' = x + x_cr</text>
       <text x="1482.4734" font-size="24px" y="1594.899" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">teta' = teta + teta_diff</text>
     </g>
+    <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-333,-137)">
+      <circle r="4.7814" clip-path="url(#clipPath2)" cx="1197.3378" cy="2029.5638" stroke="none"/>
+      <circle stroke-linecap="butt" clip-path="url(#clipPath2)" fill="none" r="4.7814" cx="1197.3378" cy="2029.5638" stroke-miterlimit="1.45"/>
+    </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-333,-137)" stroke-linecap="butt">
       <path fill="none" d="M1376 216.978 L1376 239.0258" clip-path="url(#clipPath2)"/>
     </g>
@@ -152,8 +156,6 @@
       <path fill="none" d="M1099.0547 1249.6617 L1191.0918 1249.6617 L1191.0918 1311.512" clip-path="url(#clipPath2)"/>
       <path d="M1191.0918 1319.512 L1196.0918 1307.512 L1191.0918 1310.512 L1186.0918 1307.512 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <text x="1138.5698" font-size="20px" y="1227.5182" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">НЕТ</text>
-      <path fill="none" d="M1890.8256 1310.7474 L1888.8289 1775.806 L1203.9041 1775.6588" clip-path="url(#clipPath2)"/>
-      <path d="M1195.9041 1775.6571 L1207.903 1780.6597 L1204.9041 1775.6591 L1207.9052 1770.6597 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" d="M1071.3169 2112.9009 L348.6016 2119.5264 L349.4914 377.5 L1363.207 377.5" clip-path="url(#clipPath2)"/>
       <path d="M1371.207 377.5 L1359.207 372.5 L1362.207 377.5 L1359.207 382.5 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <text x="685.039" font-size="20px" y="2094.1741" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">ДА</text>
@@ -171,8 +173,6 @@
       <path d="M1193.2109 1825.3291 L1197.6949 1813.127 L1192.8274 1816.3373 L1187.7041 1813.5531 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" d="M1195.0486 1900.3425 L1195.2053 1925.2366" clip-path="url(#clipPath2)"/>
       <path d="M1195.2557 1933.2365 L1200.1801 1921.2052 L1195.199 1924.2366 L1190.1802 1921.2682 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M1195.9471 2008.2266 L1196.3147 2038.5165" clip-path="url(#clipPath2)"/>
-      <path d="M1196.4119 2046.5159 L1201.2657 2034.4561 L1196.3025 2037.5165 L1191.2665 2034.5775 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" d="M1073.3484 1372.865 L1015.7822 1372.7811 L1016.7773 1500.8406" clip-path="url(#clipPath2)"/>
       <path d="M1016.8395 1508.8403 L1021.7461 1496.8019 L1016.7696 1499.8406 L1011.7464 1496.8795 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <text x="1020.7328" font-size="20px" y="1350.6643" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">ДА</text>
@@ -183,6 +183,12 @@
       <text x="1442.8794" font-size="20px" y="1349.7499" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">НЕТ</text>
       <path fill="none" d="M1594.6479 1607.4771 L1594.0082 1774.8405 L1203.8625 1775.6301" clip-path="url(#clipPath2)"/>
       <path d="M1195.8625 1775.6464 L1207.8727 1780.6219 L1204.8625 1775.6281 L1207.8524 1770.6221 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" d="M1196.6682 2008.2216 L1196.9365 2016.774" clip-path="url(#clipPath2)"/>
+      <path d="M1197.1874 2024.7701 L1201.8086 2012.6193 L1196.9052 2015.7745 L1191.8136 2012.9329 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" d="M1890.7921 1310.7214 L1887.2279 2014.423 L1210.0941 2029.2838" clip-path="url(#clipPath2)"/>
+      <path d="M1202.0961 2029.4594 L1214.2029 2034.1948 L1211.0939 2029.2618 L1213.9835 2024.1973 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" d="M1197.3301 2034.3391 L1197.3237 2038.1694" clip-path="url(#clipPath2)"/>
+      <path d="M1197.3107 2046.1694 L1202.3302 2034.1776 L1197.3253 2037.1694 L1192.3303 2034.1613 Z" clip-path="url(#clipPath2)" stroke="none"/>
     </g>
   </g>
 </svg>

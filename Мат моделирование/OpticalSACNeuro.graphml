@@ -134,7 +134,7 @@
           <y:Geometry height="87.0" width="245.98400000000004" x="1032.04" y="1032.4117005208334"/>
           <y:Fill color2="#B7C9E3" hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="28.501953125" modelName="custom" textColor="#000000" visible="true" width="198.384765625" x="23.799617187499962" y="29.2490234375">Расстояние &lt; 20 cм?<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="28.501953125" modelName="custom" textColor="#000000" visible="true" width="198.384765625" x="23.799617187499962" y="29.2490234375">Расстояние &gt; 20 cм?<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -366,6 +366,23 @@ teta' = teta + teta_diff<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
+    <node id="n20">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.onPageReference">
+          <y:Geometry height="9.562751711131568" width="37.17344477644383" x="1178.7511115349446" y="2024.7824458877824"/>
+          <y:Fill color="#000000" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="16.586722388221915" y="2.781375855565784">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
     <edge id="e0" source="n0" target="n1">
       <data key="d10">
         <y:PolyLineEdge>
@@ -518,19 +535,7 @@ teta' = teta + teta_diff<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e10" source="n8" target="n11">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1888.8289166666661" y="1775.806035459838"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e11" source="n12" target="n5">
+    <edge id="e10" source="n12" target="n5">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -551,7 +556,7 @@ teta' = teta + teta_diff<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e12" source="n12" target="n13">
+    <edge id="e11" source="n12" target="n13">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -571,7 +576,7 @@ teta' = teta + teta_diff<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e13" source="n13" target="n14">
+    <edge id="e12" source="n13" target="n14">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -581,7 +586,7 @@ teta' = teta + teta_diff<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e14" source="n9" target="n15">
+    <edge id="e13" source="n9" target="n15">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-2.0" ty="11.966759257001286">
@@ -601,7 +606,7 @@ teta' = teta + teta_diff<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e15" source="n11" target="n16">
+    <edge id="e14" source="n11" target="n16">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -611,7 +616,7 @@ teta' = teta + teta_diff<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e16" source="n16" target="n17">
+    <edge id="e15" source="n16" target="n17">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -621,17 +626,7 @@ teta' = teta + teta_diff<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e17" source="n17" target="n12">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e18" source="n15" target="n11">
+    <edge id="e16" source="n15" target="n11">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -643,7 +638,7 @@ teta' = teta + teta_diff<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e19" source="n10" target="n18">
+    <edge id="e17" source="n10" target="n18">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -663,7 +658,7 @@ teta' = teta + teta_diff<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e20" source="n18" target="n11">
+    <edge id="e18" source="n18" target="n11">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -676,7 +671,7 @@ teta' = teta + teta_diff<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e21" source="n10" target="n19">
+    <edge id="e19" source="n10" target="n19">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -696,11 +691,46 @@ teta' = teta + teta_diff<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e22" source="n19" target="n11">
+    <edge id="e20" source="n19" target="n11">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="1594.0082073511333" y="1774.840424391627"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e21" source="n17" target="n20">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e22" source="n20" target="n12">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e23" source="n8" target="n20">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="1887.2279427765764" y="2014.4229884702406"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
