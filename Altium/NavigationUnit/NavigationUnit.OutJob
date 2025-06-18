@@ -2,9 +2,9 @@
 Version=1.0
 
 [PublishSettings]
-OutputFilePath2=C:\Users\slagt\Documents\ÂÊÐ\Altium\NavigationUnit\.PDF
+OutputFilePath2=C:\Users\slagt\Documents\VKR\Altium\NavigationUnit\.PDF
 ReleaseManaged2=0
-OutputBasePath2=C:\Users\slagt\Documents\ÂÊÐ\Altium\NavigationUnit\
+OutputBasePath2=C:\Users\slagt\Documents\VKR\Altium\NavigationUnit\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -81,7 +81,7 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\slagt\Documents\ÂÊÐ\Altium\NavigationUnit\.PDF
+RelativeOutputPath2=C:\Users\slagt\Documents\VKR\Altium\NavigationUnit\.PDF
 OpenOutputs2=1
 RelativeOutputPath3=
 OpenOutputs3=1
